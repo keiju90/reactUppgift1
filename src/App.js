@@ -1,24 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import DashboardComponent from "./DashboardComponent";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{ backgroundImage: 'radial-gradient(#603a4e, #3e3d5a)' }}>
+      <DashboardComponent>
+      </DashboardComponent>
     </div>
   );
 }
