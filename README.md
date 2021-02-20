@@ -1,6 +1,44 @@
 <img width="1301" alt="ReactUppgift1" src="https://user-images.githubusercontent.com/54171324/108595232-095c0b00-737f-11eb-9aff-2b99205cc3c1.png">
 
 
+
+## UppgiftsBeskrivning - U1 React
+I denna uppgift skall ni arbeta med React och de delar denna uppgift täcker är.<br />
+<br />
+Components<br />
+Composition<br />
+Conditional Rendering<br />
+JSX<br />
+Rendering lists<br />
+Styling with css modules<br />
+Handling input fields<br />
+
+###I denna applikation krävs det att ni har minst 3 komponenter (ni kan ha fler om ni vill). Dessa komponenter är:<br />
+<br />
+DashboardComponent.js<br />
+Class Component<br />
+State: Användare, färg<br />
+Syfte/logik:<br />
+Lägga till användare<br />
+Ta bort användare<br />
+Hantera vårt inputfält<br />
+Knapp för att toggla färg<br />
+Renderar en lista med UserComponents<br />
+WrapperComponent.js<br />
+Class Component<br />
+State =  showContent (true, false)<br />
+Syfte: Fungerar som en wrapper för våra cards<br />
+Saker som renderas i denna wrapper skall hamna i ett kort (card)<br />
+Innehåller knapp för att toggla state showContent<br />
+Denna renderar vad som passas in som children (om state showContent är true)<br />
+UserComponent.js<br />
+Function Component<br />
+Props: färg, användare<br />
+Syfte: renderar en användare<br /> 
+<br />
+
+________________________________________________________________
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
